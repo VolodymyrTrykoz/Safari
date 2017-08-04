@@ -1,0 +1,421 @@
+html {
+	background-image: url(../img/main_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 650px;
+}
+body {
+	background: transparent;
+}
+.container {
+	max-width: 1024px;
+	margin: 0 auto;	
+	position: relative;	
+}
+.sun {
+	background-image: url(../img/sun.png);
+	background-size: cover;
+	height: 585px;
+	width: 115%;
+	position: absolute;
+	left: -15%;
+	z-index: -1;
+}
+.top_menu_bg {
+	width: 95%;
+	height: 90px;
+	background-color: #4cb2e7;
+	z-index: 1;
+	border-radius: 8px;
+	position: absolute;
+	top: -30px;
+	transform: rotate(-3deg);
+}
+.text_menu {
+	position: absolute;
+	z-index: 10;
+}
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-toggle {
+	float: right;
+	z-index: 10;
+	margin-top: 4px;
+}
+.navbar-default .navbar-toggle {
+	border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #79d2fb;
+}
+.nav_logo {
+	position: absolute;
+	left: 20px;
+	top: -8px;
+	z-index: 5; 
+	width: 20%;
+}
+#navbarCollapse {
+	width: 65%;
+	float: right;
+}
+.text_menu li {
+	display: inline-block;
+}
+.navbar-default .navbar-nav > li > a {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+}
+/*airplane*/
+.airplane {
+	margin-top: 25px;
+	height: 285px;
+	background-image: url(../img/airplane.png);
+	background-repeat: no-repeat;
+	position: relative;
+}
+.air_slider {
+	width: 250px;
+	height: 140px;
+	position: absolute;
+	bottom: 60px;
+	right: 90px;
+	text-align: center;
+}
+
+.country {
+	font-family: 'Modak', cursive;
+	font-size: 32px;
+	color: #127ea5;
+}
+.desc {
+	font-family: 'Permanent Marker', cursive;
+	color: #ded90e;
+	font-size: 20px;
+}
+.slick-prev, .slick-next {
+	height: 30px;
+	width: 30px;
+
+}
+.slick-prev, .slick-prev:hover, .slick-prev:visited, .slick-prev:focus, .slick-prev:active {
+	height: 46px;
+	width: 46px;
+	background-image: url(../img/slick_prev.png);
+	z-index: 10;
+	top: 150px;
+	left: -150px;
+}
+.slick-next, .slick-next:hover, .slick-next:visited, .slick-next:focus, .slick-next:active {
+	height: 42px;
+	width: 42px;
+	background-image: url(../img/slick-next.png);
+	z-index: 10;
+	top: 170px;
+	left: -98px;
+}
+.slick-prev:before, .slick-next:before {
+	content: none;
+}
+/*Form*/
+.message {
+	margin-left: -2px;
+}
+.form-control {
+	color: #37a5ce;
+	font-size: 15px;
+	border: 3px solid #7ebee0;
+	padding: 5px 12px;
+}
+label {
+	color: white;
+}
+.wrapper {
+	margin-top: 25px;
+	background-color: #299fca;
+	height: 500px;
+	padding-top: 50px;
+	border-radius: 12px;
+	border: 7px solid	#7ebee0;
+	position: relative;
+
+}
+.form-horizontal {
+	padding-top: 50px;
+}
+.online_booking {
+	width: 231px;
+	height: 46px;
+	background-image: url(../img/online_booking.png);
+	position: absolute;
+	top: 20px;
+	left: -20px;
+}
+.btn {
+	width: 90px;
+	margin-right: 15px;
+}
+.btn-success {
+	color: #64affc;
+	background-color: #f2e60a;
+}
+.ladder {
+	position: absolute;
+	width: 62px;
+	height: 154px;
+	background-image: url(../img/ladder.png);
+	bottom: 5px;
+	left: 25px;
+}
+/*Content*/
+
+/*left offers*/
+.cloud_1 {
+	background-image: url(../img/cloud_1.png);
+	background-size: cover;
+	width: 100%;
+	height: 560px;
+	margin-top: -315px;
+}
+.cloud_2 {
+	background-image: url(../img/cloud_2.png);
+	background-size: cover;
+	width: 100%;
+	height: 615px;
+	margin-top: -310px;
+	position: absolute;
+}
+.shift {
+	margin-top: -170px;
+	margin-bottom: 70px;
+}
+.offer {
+	color: #fff;
+	font-family: 'Pacifico', cursive;
+}
+.left_offer_first_block {
+	padding: 0 0 20px 0;
+	border-bottom: 3px dotted #fff;
+}
+.left_offer_second_block {
+	padding: 20px 0 20px 0; 
+}
+.left_offers, .right_offers {
+	padding-left: 0;
+	padding-right: 0;
+}
+.left_offers h3 {
+	margin-bottom: 25px;
+}
+.offer_pic {
+	padding: 0;
+}
+.offer_descr {
+	font-family: 'Indie Flower', cursive;
+	color: #fff;
+	padding-right: 0;
+}
+.offer_descr h4 {
+	margin: 5px 0 10px 0;
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+.price {
+	font-family: Arial;
+	color: #fff;
+	font-size: 20px;
+	padding-left: 40px;
+}
+.btn {
+	padding: 4px 0px;
+}
+/*right offers*/
+.right_offers {
+	padding-top: 70px;
+	position: relative;
+}
+.nav-tabs {
+	border-bottom: 1px solid #13f3f3;
+	margin-bottom: 30px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	background-color: #81ffff;
+	color: #127ea5;
+	border: none;
+	border-bottom: 1px solid #13f3f3;
+	height: 30px;
+	font-size: 11px;
+}
+.nav-tabs > li > a {
+	background-color: #299fca;
+	color: #81ffff;
+	border-bottom: 1px solid #13f3f3;
+	margin-right: 6px;
+	height: 30px;
+	font-size: 11px;
+}
+.nav-tabs > li > a:hover {
+	background-color: #81ffff;
+	color: #127ea5;
+	border: none;
+} 
+
+.right_offers .nav > li > a {
+	padding: 8px 20px;
+}
+.summer_offer {
+	position: absolute;
+	height: 95px;
+	width: 177px;
+	background-image: url(..//img/summer_offer.png);
+	top: 5px;
+	right: -54px;
+}
+.row {
+	padding-top: 5px;
+}
+.row, .row a {
+	color: #fff;
+	font-family: 'Slabo 27px', serif;
+	font-size: 16px;
+}
+.row ul {
+	padding-left: 0;
+}
+.row ul li {
+	background-image: url(../img/small_arrow.png);
+	cursor: pointer;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-position: 0 center;
+}
+/*map*/
+
+.map {
+	background-color: #d6e6ef;
+	height: 590px;
+	width: 100%;
+}
+.map h2 {
+	font-family: arial;
+	font-size: 27px;
+	color: #4690b4;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.rest_world {
+	background-image: url(../img/rest_world.png);
+	background-repeat: no-repeat;
+	height: 469px;
+	position: relative;
+	z-index: 10;
+}
+.africa {
+	background-image: url(../img/africa.png);
+	background-repeat: no-repeat;
+	height: 204px;
+	width: 100%;
+	position: absolute;
+	z-index: 50;
+	top: 328px;
+	left: 420px;
+}	
+
+
+
+
+
+
+/*MEDIA*/
+
+@media (max-width: 992px) {
+	.navbar-default .navbar-nav > li > a {
+		font-size: 15px;
+	}
+	#navbarCollapse {
+		width: 60%;
+	}
+	.cloud_1 {
+		background-image: none;
+	}
+	.cloud_2 {
+		margin-top: -231px;
+	}
+	.offer_descr {
+ 		padding-left: 35px;
+ 	}
+ }
+@media (max-width: 768px) {
+	
+	body {
+ 	background-color: #299fca;
+ 	}	
+    #navbarCollapse {
+  	width: 20%;
+ 	}
+    .navbar-default .navbar-nav > li > a {
+ 	color: #070552;
+	}
+    .navigation .nav_logo img {
+	width: 200px;
+	height: 100px;
+	}
+	.ladder {
+ 		display: none;
+ 	}
+ 	.wrapper {
+ 		margin-top: 100px;
+ 	}
+ 	
+ 	.cloud_1 {
+ 		display: none;
+ 	}
+ 	.cloud_2 {
+		display: none;
+	}
+ 	.shift {
+ 		margin-top: 0;
+ 	}
+ 	.left_offer_first_block {
+ 		padding: 0 0 20px 0;
+ 	}
+ 	.offer_descr {
+ 		padding-left: 10px;
+ 	}
+ 	.offer_pic img{
+ 		width: 100px;
+ 		height: 80px;
+ 	}
+ 	.summer_offer {
+ 		top: 310px;
+ 		right: -15px;
+ 	}
+ } 
+ 	
+
+
+@media (max-width: 576px) {
+	#navbarCollapse {
+    width: 20%;
+ 	}
+ 	.ladder {
+ 		display: none;
+ 	}
+
+ 	
+ }
